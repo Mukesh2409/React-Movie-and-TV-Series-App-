@@ -4,7 +4,7 @@ export default function Navbar({onSearch}) {
     const [query,setQuery] = useState("")
   return (
     <div className='navbar'>
-        <h1 >Mukesh MovieTB</h1>
+        <h1 >Movie's Hub</h1>
         <ul className='nav'>
             <li>
                 <Link to="/">Home</Link>
